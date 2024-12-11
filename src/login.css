@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", serif;
+    /* background-color: #858585; */
+}
+
+body {
+    background-color: #d2d2d2;
+}
+
+nav{
+    display: flex;
+    padding: 1rem 0;
+    background-color: #fff;
+    /* margin-left: 1.8rem; */
+}
+
+header {
+    position: sticky;
+    z-index: 1000;
+    top: 0; left: 0;
+    transition: 0.5s;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    margin-right: 20rem;
+    margin-left: 6rem;
+}
+
+.logo a {
+    font-family: "Anton", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.logo .a2 {
+    font-family: "Anton", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+    display: flex;
+    margin-top: 10px;
+}
+
+.menu a {
+    margin: 0 2rem;
+    color: black;
+    font-size: 15px;
+}
+
+.loginform {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 23rem;
+}
+
+.loginform a {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 0.7rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.redline {
+    background-color: rgba(255, 2, 2, 0.678);
+    padding: 4px;
+}
+
+section {
+    background-color: #d2d2d2;
+}
+
+.w-login {
+    display: flex;
+    justify-content: center;
+    margin: 125px;
+}
+
+.login_box{
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 125px;
+}
+
+.login_box h1{
+    text-align: center;
+    margin: 15px;
+}
+
+.login-email {
+    margin-left: 5px;
+    padding-right: 23px;
+}
+
+.login-password{
+    margin-left: 5px;
+    padding-right: 23px;
+}
